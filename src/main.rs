@@ -19,6 +19,6 @@ fn main() {
         pool.execute(move || {
             router::router(stream);
         })
-        .expect("Failed to send client request to the thread pool");
+        .expect("send client request to the thread pool");
     }
 }
