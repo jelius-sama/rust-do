@@ -4,3 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+rs_routine = {  git = "https://github.com/jelius-sama/rs_routine.git", branch = "main" }
